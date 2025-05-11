@@ -13,7 +13,6 @@ const resCodes = [
 let container=document.getElementById("container")
 for(let i of resCodes){
     let div=document.createElement("div")
-   
     let img=document.createElement("img")
     img.src=`https://http.cat/${i}`
     img.style.width="200px"
